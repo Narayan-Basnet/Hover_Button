@@ -1,0 +1,30 @@
+.select{
+    background-color: green;
+    color: white;
+    padding:16px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.container{
+    position: relative;
+    display: inline-block;
+}
+.container2{
+    position:absolute;
+    z-index: 1;
+    background-color: light gray;
+    min-width: 160px;
+    box-shadow: 10px 10px 5px 0px #888;
+}
+.container2 a{
+    display: block;
+    color: black;
+    padding: 12px 16px;;
+}
+.container2 a:hover{
+    background-color: red;
+}
+.select:hover{
+    background-color: blue;
+}
